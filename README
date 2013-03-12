@@ -1,0 +1,12 @@
+/ColdTurkey   <-- Root-level Main application (writes to hosts file)
+/CT_notify    <-- User-level background process to trigger CT_popup and block programs
+/CT_notify2   <-- User-level background process to monitor CT_notify
+/CT_popup     <-- User-level program that is the popup displayed when the time is up
+/kctrp_srv    <-- Root-level Windows service (lock hosts file) and unblocks user when time is up
+/SetACL       <-- Root-level program that is used for a Windows Defender (Win 8) work around (freeware)
+
+Created and compiled with Visual Studio VB.NET 2010
+
+Contact:      http://getcoldturkey.com
+              http://felixbelzile.com
+              felixbelzile@gmail.com
